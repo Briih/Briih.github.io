@@ -1,11 +1,11 @@
 @CHARSET "UTF-8";
 *{
-	margin: 0px;
-	padding: 0px;
+	margin: 20px;
+	padding: 20px;
 }
 
 h1{
-	font: bold 40px verdana, sans-serif;
+	font: bold 30px verdana, sans-serif;
 }
 
 h2{
@@ -13,8 +13,8 @@ h2{
 }
 
 #cabecera{
-	background: #fe7aea;
-	border: 1px solid #999999;
+	background: #ffffff;
+	border: 1px solid #8000ff;
 	padding: 20px;
 	font: bolt 36px verdana, sand-serif;
 	text-shadow: rgb(150, 150, 150) 3px 3px 5px;
@@ -22,7 +22,7 @@ h2{
 }
 
 #menu{
-	background: #e2e800;
+	background: #8000ff;
 	padding: 5px 15px;
 }
 
