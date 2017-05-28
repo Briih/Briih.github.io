@@ -47,6 +47,7 @@ h2{
 	margin: 20px 0px;
 	padding: 20px;
 	background: #ffff80;
+	background-size: contain;
 }
 
 #pie{
@@ -58,7 +59,7 @@ h2{
 .font-blue{
 	color: #6f6ff4; 
 	background: white;
-	font 18px;
+	font: 18px;
 }
 
 article{
