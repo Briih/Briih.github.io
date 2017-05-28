@@ -13,7 +13,6 @@ h2{
 }
 
 #cabecera{
-	background: #ffffff;
 	padding-left: 40px;
 	font: bolt 36px verdana, sand-serif;
 	text-shadow: rgb(150, 150, 150) 3px 3px 5px;
@@ -22,6 +21,7 @@ h2{
 }
 
 #menu{
+	color: #ffffff;
 	background: #000000;
 	padding: 20px 20px;
 }
