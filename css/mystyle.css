@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-*{
+body{
 	background-image: url("img/fondoprincipal.jpg");
 }
 
@@ -14,23 +14,22 @@ h2{
 
 #cabecera{
 	background: #ffffff;
-	border: 1px solid #8000ff;
-	padding: 20px;
+	padding: 15px;
 	font: bolt 36px verdana, sand-serif;
 	text-shadow: rgb(150, 150, 150) 3px 3px 5px;
-	filter: blur 5px; <!-- suaviza --> ;
-	margin: 20px;
+	filter: blur 5px; <!-- suaviza --> 
+	margin: 30px;
 }
 
 #menu{
-	background: #ffffff;
+	background: #b991b0;
 	padding: 5px 15px;
 }
 
 #menu li{
 	display: inline-block;
 	list-style: none;
-	padding: 5px;
+	padding: 10px;
 	font: bold 14px verdana, sans-serif;
 }
 
