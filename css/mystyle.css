@@ -13,7 +13,7 @@ h2{
 }
 
 img.pequeña{
-  width: 100px;
+  width: 220px;
 }
 
 #cabecera{
@@ -42,15 +42,15 @@ img.pequeña{
 
 #seccion{
 	float: left;
-	width: 660px;
+	width: 700px;
 	margin: 20px
 }
 
 #lateral{
-	float: left;
+	float: right;
 	width: 220px;
 	margin: 20px 0px;
-	padding: 20px;
+	padding: 0px;
 	background: #ffff80;
 }
 
