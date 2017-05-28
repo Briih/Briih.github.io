@@ -18,7 +18,7 @@ img.pequeña{
 
 #cabecera{
 	background: none;
-	margin: 40px;
+	margin: 100px;
 	font: bolt 36px verdana, sand-serif;
 	text-shadow: rgb(150, 150, 150) 3px 3px 5px;
 	filter: blur 5px; <!-- suaviza --> 
@@ -37,6 +37,7 @@ img.pequeña{
 	display: inline-block;
 	list-style: none;
 	font: 15px verdana, sans-serif;
+	padding: 5px 15px;
 	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 
