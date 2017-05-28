@@ -13,7 +13,7 @@ h2{
 }
 
 img.pequeña{
-  width: 50px;
+  width: 300px;
 }
 
 #cabecera{
@@ -37,7 +37,7 @@ img.pequeña{
 	display: inline-block;
 	list-style: none;
 	padding: 5px;
-	font: 20px verdana, sans-serif;
+	font: 15px verdana, sans-serif;
 }
 
 #seccion{
