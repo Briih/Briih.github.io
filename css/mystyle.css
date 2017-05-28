@@ -13,7 +13,7 @@ h2{
 }
 
 img.pequeña{
-  width: 200px;
+  width: 100px;
 }
 
 #cabecera{
@@ -28,7 +28,7 @@ img.pequeña{
 #menu{
 	color: #ffffff;
 	background: #000000;
-	padding: 20px 20px;
+	padding: 5px 5px;
 	margin: 0px;
 	
 }
@@ -36,7 +36,6 @@ img.pequeña{
 #menu li{
 	display: inline-block;
 	list-style: none;
-	padding: 5px;
 	font: 15px verdana, sans-serif;
 	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
@@ -53,7 +52,6 @@ img.pequeña{
 	margin: 20px 0px;
 	padding: 20px;
 	background: #ffff80;
-	background-size: contain;
 }
 
 #pie{
