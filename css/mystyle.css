@@ -30,6 +30,7 @@ img.pequeña{
 	background: #000000;
 	padding: 20px 20px;
 	margin: 0px;
+	
 }
 
 #menu li{
@@ -37,6 +38,7 @@ img.pequeña{
 	list-style: none;
 	padding: 5px;
 	font: 15px verdana, sans-serif;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 #seccion{
