@@ -28,7 +28,7 @@
 
 
 .menu ul li a {
-    display: inline-block;
+    float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
