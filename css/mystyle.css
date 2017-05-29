@@ -11,5 +11,31 @@
 	padding-left:50px;
 	width: 100%;
 	height: auto;
+}
 
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    opacity: 0.6;
+  	filter: alpha(opacity=60);
+  	top: 0px;
+}
+
+
+.menu ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: -1px 0 #6500ca, 0 1px #6500ca, 1px 0 #6500ca, 0 -1px #6500ca;
+}
+
+.menu li a:hover {
+    background-color: #333;
 }
