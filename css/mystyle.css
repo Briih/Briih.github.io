@@ -16,25 +16,9 @@ img.pequeña{
 #cabecera{
 	background: none;
 	margin: 50px;
-	font: bolt 36px verdana, sand-serif;
+	font: bolt 40px verdana, sand-serif;
 	text-shadow: rgb(150, 150, 150) 3px 3px 5px;
 	
-}
-
-#menu{
-	color: #ffffff;
-	background: #000000;
-	padding: 5px 5px;
-	margin: 0px;
-	
-}
-
-#menu li{
-	display: inline-block;
-	list-style: none;
-	font: bolt 15px verdana, sans-serif;
-	padding: 5px 15px;
-	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 
 #seccion{
@@ -94,6 +78,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 
 li a:hover {
