@@ -8,6 +8,15 @@
 	width: 20%;
 }
 
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+div {
+   font-family: myFirstFont;
+}
+
 .cabecera{
 	background: #c6cef2;
 	text-align: center;
