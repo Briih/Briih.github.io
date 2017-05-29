@@ -24,10 +24,52 @@ img.pequeña{
 
 .icon-font{
 	float: center;
+	color: black;
 }
 
 #contenedor{
 	width: 80%;
+}
+
+.social{
+	position: fixed;
+	left: o;
+	top: 200px;
+	z-index: 2000;
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social ul li a{
+	display: inline-block;
+	color:;
+	background: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	
+}
+
+.social ul li .icon-facebook{
+	background: #3b5998;
+}
+
+.social ul li .icon-google{
+	background: #d95232;
+}
+
+.social ul li .icon-instagram{
+	background: #fbad50;
+}
+
+.social ul li .icon-youtube{
+	background: #c4302b;
+}
+
+.social ul li a:hover{
+	padding: 10px 30px;
+	background: black;
 }
 
 #seccion{
