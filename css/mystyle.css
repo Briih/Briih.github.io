@@ -14,35 +14,30 @@ img.pequeña{
 }
 
 #cabecera{
-	background: none;
+	background-image: url("img/20161116_010131_HDR-1.jpg");
 	font: bolt 40px verdana, sand-serif;
 	text-shadow: rgb(150, 150, 150) 3px 3px 5px;
-	padding-left:50px
+	padding-left:50px;
 	width: 100%;
+	position: fixed;
+
 }
 
 #contenedor{
-	width: 100%;
+	width: 90%;
 }
 
 #seccion{
-	float: center;
-	width: 90%;
+	float: left;
+	width: 70%;
 	padding: 10px;	
 	box-shadow: 10px 10px grey;
 }
 
-#cderecha{
-	float: left;
-	width: 45%;
-	margin: 10px 0px;
-	padding: 0px;
-	background: #ffff80;
-}
 
-#cizquierda{
+#lateral{
 	float: rigth;
-	width: 45%;
+	width: 30%;
 	margin: 10px 0px;
 	padding: 0px;
 	background: #ffff80;
