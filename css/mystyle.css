@@ -22,6 +22,10 @@ img.pequeña{
 
 }
 
+.icon-font{
+	float: center;
+}
+
 #contenedor{
 	width: 80%;
 }
