@@ -1,5 +1,7 @@
 @CHARSET "UTF-8";
-
+*{
+	border-box: 
+}
 
 h1{
 	font: bold 30px verdana, sans-serif;
@@ -150,7 +152,7 @@ li a:hover {
 	width: 100%;
 	}
 }
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
 	#contenedor{
 	width: 100%;
 	}
