@@ -131,11 +131,11 @@ article footer{
   	top: 0px;
 }
 
-.menu li {
+li {
     float: left;
 }
 
-.menu li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -144,7 +144,7 @@ article footer{
     text-shadow: -1px 0 #6500ca, 0 1px #6500ca, 1px 0 #6500ca, 0 -1px #6500ca;
 }
 
-.menu li a:hover {
+li a:hover {
     background-color: #333;
 }
 
@@ -156,7 +156,7 @@ article footer{
 	width: 100%;
 	}
 }
-@media screen and (min-width: 400px){
+@media screen and (max-width: 400px){
 	#contenedor{
 	width: 100%;
 	}
