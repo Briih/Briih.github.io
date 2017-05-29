@@ -93,7 +93,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    text-shadow: -1px 0 #6500ca, 0 1px #6500ca, 1px 0 #6500ca, 0 -1px #6500ca;
 }
 
 li a:hover {
