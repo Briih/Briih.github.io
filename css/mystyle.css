@@ -17,6 +17,10 @@ div {
    font-family: myFirstFont;
 }
 
+p.sansserif {
+    font-family: Courier New, Helvetica, sans-serif;
+}
+
 .cabecera{
 	background: #c6cef2;
 	text-align: center;
