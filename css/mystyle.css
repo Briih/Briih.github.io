@@ -22,20 +22,28 @@ img.pequeña{
 }
 
 #contenedor{
-	
+	width: 100%;
 }
 
 #seccion{
-	float: left;
-	width: 600px;
-	margin: 20px;	
+	float: center;
+	width: 90%;
+	padding: 10px;	
 	box-shadow: 10px 10px grey;
 }
 
-#lateral{
-	float: right;
-	width: 220px;
-	margin: 20px 0px;
+#cderecha{
+	float: left;
+	width: 45%;
+	margin: 10px 0px;
+	padding: 0px;
+	background: #ffff80;
+}
+
+#cizquierda{
+	float: rigth;
+	width: 45%;
+	margin: 10px 0px;
 	padding: 0px;
 	background: #ffff80;
 }
