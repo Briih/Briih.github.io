@@ -1,5 +1,5 @@
 .font-blue{
-	color: #6f6ff4; 
+	color: #ff8080; 
 	background: white;
 	font-size:18px;
 }
@@ -35,7 +35,7 @@
 
 .button1 {
     background-color: white; 
-    color: #fda8fd; 
+    color: #000000; 
     border: 2px solid #008CBA;
 }
 
