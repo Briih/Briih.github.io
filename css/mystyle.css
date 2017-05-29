@@ -35,9 +35,11 @@ img.pequeña{
 
 .social{
 	position: fixed;
-	left: o;
 	top: 200px;
-	z-index: 2000;
+	overflow: hidden;
+	width: 20%;
+	height: 75px;
+	
 }
 
 .social ul{
@@ -50,7 +52,6 @@ img.pequeña{
 	background: white;
 	padding: 10px 15px;
 	text-decoration: none;
-	
 }
 
 .social ul li .icon-facebook{
