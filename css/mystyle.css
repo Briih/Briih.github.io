@@ -7,14 +7,14 @@
 
 
 .menu ul {
-    list-style-type: none;
+    list-style: none;
     background-color: #333;
     position: fixed;
     width: 100%;
     opacity: 0.6;
   	filter: alpha(opacity=60);
   	top: 0px;
-  	height: 20%;
+  	height: 10%;
 }
 
 
