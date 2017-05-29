@@ -18,22 +18,22 @@
 }
 
 .button {
-    background-color: #fda8fd; /* Green */
+    background-color: #408080; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     margin: 4px 2px;
     cursor: pointer;
 }
 
 .button1 {
     background-color: white;
-    color: #8000ff;
-    border: 2px solid #8000ff; /* Green */
+    color: #408080;
+    border: 2px solid #408080; /* Green */
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */
