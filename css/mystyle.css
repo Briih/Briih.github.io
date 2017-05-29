@@ -23,23 +23,24 @@ img.pequeña{
 }
 
 #contenedor{
-	width: 90%;
+	width: 80%;
 }
 
 #seccion{
 	float: left;
 	width: 70%;
-	padding: 10px;	
+	padding: 20px;	
 	box-shadow: 10px 10px grey;
+	box-sizing: border-box;
 }
 
 
-#lateral{
+#foto{
 	float: rigth;
-	width: 30%;
 	margin: 10px 0px;
 	padding: 0px;
-	background: #ffff80;
+	width: 100%;
+	height: auto;
 }
 
 #pie{
@@ -93,4 +94,21 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+@media screen and (max-width: 800px){
+	#seccion{
+	width: 100%;
+	}
+	#lateral{
+	width: 100%;
+	}
+}
+@media screen and (max-width: 400px){
+	#contenedor{
+	width: 100%;
+	}
+	#foto{
+	display: none;
+	}
 }
