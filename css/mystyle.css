@@ -97,9 +97,8 @@ p.sansserif {
 
 .cabecera{
 	text-align: center;
-	font: bolt 36px verdana, sand-serif;
+	font: bolt 25px verdana, sand-serif;
 	padding-left: 13%;
-	padding-top: 5%;
 	background-color:#2196F3;
 	color:#fff;
 	height:140px;
