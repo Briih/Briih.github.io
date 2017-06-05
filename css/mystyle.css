@@ -1,10 +1,11 @@
 /*inicio template*/
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Inconsolata", sans-serif;}
 body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
 }
+
 
 /* efecto en las imágenes */
 .bgimg-1, .bgimg-2, .bgimg-3 {
