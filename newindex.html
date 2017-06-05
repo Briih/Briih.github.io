@@ -9,79 +9,37 @@
 <link rel="stylesheet" href="ifonts/style.css">
 
 <style>
-	body {
-      position: relative; 
-  }
-  .affix {
-      top:0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
-  .navbar {
-      margin-bottom: 0px;
-  }
-
-  .affix ~ .container-fluid {
-     position: relative;
-     top: 50px;
-  }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+	
 </style>
-
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-	<div class="container-fluid" style="background-color:#F44336;color:#fff;height:130px;">
-  		<br><h1>Cajamarca - Economia</h1>
-  	</div>
-  	
-		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">DISTRITOS</a>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#section1">Cajamarca</a></li>
-          <li><a href="#section2">Jaén</a></li>
-          <li><a href="#section3">Chota</a></li>
-          <li><a href="#section4">Bambamarca</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav> 
-
-<div id="section1" class="container-fluid">
-  <h1>Cajamarca</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section2" class="container-fluid">
-  <h1>Jaén</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section3" class="container-fluid">
-  <h1>Chota</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section4" class="container-fluid">
-  <h1>Bambamarca</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
+<body>
+	<div class = "cabecera">
+	<header>CAJAMARCA - ECONOMIA</header>
+	</div>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#inicio">Cajamarca</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#inicio"><span class="icon-home"></span> INICIO</a></li>
+					<li><a href="#"><span class="icon-man"></span> ACERCA</a></li>
+					<li><a href="#"><span class="icon-network"></span> PROYECTOS</a></li>
+					<li><a href="#"><span class="icon-mail"></span> CONTACTO</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+							Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
 	<div class="container-fluid text-center">
 		<div class="row content">
@@ -91,7 +49,7 @@
 				<p><span class="icon-grid font-blue"></span><a href="#chota">Chota</a></p>
 				<p><span class="icon-grid font-blue"></span><a href="#bambamarca">Bambamarca</a></p>
 			</div>
-			<!--<div class="col-sm-8 text-left">
+			<div class="col-sm-8 text-left">
 				<h1>Bienvenidos</h1>
 				<p class = "sansserif">
 					En esta página usted podrá observar acerca de las actividades
@@ -159,7 +117,7 @@
 						materias primas y residuos que pueden ser utilizados por la
 						industria.</p> <a href="#" class="button1"><button id="#" class="button button1"><span class="icon-arrow-bold-up"></button></a>
 				</div>
-			</div>-->
+			</div>
 			<div class="col-sm-2 sidenav tamaño">
 				<div class="tamaño">
 					<img src="img/agricultura.jpg">
