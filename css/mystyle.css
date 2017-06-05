@@ -104,13 +104,6 @@ p.sansserif {
 	height:200px;
 }
 
-.izquierda{
-	font-family: 'Aclonica';
-	font-size: 22px;
-	background-color:#ffffff;
-	color:#ca9bc1;
-}
-
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -154,8 +147,11 @@ p.sansserif {
 	padding-top: 20px;
 	padding-left: 30px;
 	text-align: left;
-	background-color: #ffe3fc;
 	height: 100%;
+	font-family: 'Aclonica';
+	font-size: 22px;
+	background-color:#ffffff;
+	color:#ca9bc1;
 }
 
 /* Set black background color, white text and some padding */
