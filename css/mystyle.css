@@ -104,6 +104,13 @@ p.sansserif {
 	height:200px;
 }
 
+.izquierda{
+	font-family: 'Aclonica';
+	font-size: 22px;
+	background-color:#ffffff;
+	color:#ca9bc1;
+}
+
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
