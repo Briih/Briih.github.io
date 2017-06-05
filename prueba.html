@@ -8,7 +8,12 @@
 <link rel="stylesheet" href="ifonts/style.css">
 <link rel="stylesheet" href="css/styleprueba.css">
 <style>
-
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/20161116_010131_HDR-1.jpg");
+    min-height: 75%;
+}
 </style>
 <body>
 
@@ -61,7 +66,7 @@
       <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
       <p>Chef, Coffeeist and Owner: Liam Brown</p>
     </div>
-    <img src="img/001.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <img src="img/yo.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
     <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
     <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
   </div>
@@ -152,7 +157,7 @@ function myMap()
   myCenter=new google.maps.LatLng(-7.1591419,-78.50691130000001);
   var mapOptions= {
     center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
+    zoom:15, scrollwheel: false, draggable: false,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
