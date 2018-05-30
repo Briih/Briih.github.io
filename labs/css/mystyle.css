@@ -3,3 +3,7 @@ article {
     margin-right: 300px;
     padding: 1em;
 }
+
+aside {
+    text-align: right;
+}
