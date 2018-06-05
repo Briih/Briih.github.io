@@ -3,3 +3,10 @@ article {
     margin-right: 300px;
     padding: 1em;
 }
+
+div {
+    border: 2px solid #CCC;
+    padding: 1em;
+    margin: 1em 0 1em 4em;
+    width: 300px;
+}
