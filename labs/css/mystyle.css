@@ -2,3 +2,7 @@ article {
     margin-left: 200px;
     margin-right: 300px;
 }
+
+* {
+    box-sizing: border-box;
+}
