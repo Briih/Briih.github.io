@@ -13,14 +13,61 @@
         p.cabecera {
             border-width: 0px 0px 2px 0px;
         }
+        
+        .div1 {
+            width: 230px;
+            height: 70%;
+            border: 1px solid black;
+            background: white;
+            color: black;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: normal;
+            margin: 10px 0px 0px 0px;
+        }
+        
+        .div2 {
+            width: 240px;
+            height: 50%;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background: gray;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: arial;
+        }
+        
+        .div3 {
+            border-width: 0px 0px 1px 0px;
+            border-style: solid;
+            text-align: left;
+            padding: 4px;
+        }
+        
+        .div4 {
+            border-width: 0px 0px 1px 0px;
+            text-align: left;
+            padding: 4px;
+        }
     </style>
 
 </head>
 
 <body>
     <article>
-        <p class="cabecera">sucedió un dos de febrero</p>
+        <p class="cabecera">Sucedió un dos de febrero</p>
         <div>1943 Rendición del 6º ejército alemán, que pone fin a la batalla de Stalingrado.</div>
+        <div class="div2">GUERRA <br/>
+            <div class="div1">
+                <div class="div3">1943</div>
+                <div class="div4">Rendición del 6º ejército alemán, que pone fin a la batalla de Stalingrado.</div>
+            </div>
+            <div class="div1">
+                <div class="div3">1968</div>
+                <div class="div4">Ejecución sumaria de Nguyen Van Lem, miembro del Viet Cong, inmortalizada por el fotógrafo norteamericano Eddie Adams.</div>
+            </div>
+        </div>
     </article>
 
 </body>
