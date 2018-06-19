@@ -31,6 +31,12 @@
             font-size: 20px;
         }
         
+        div.opacidad {
+            opacity: 0.6;
+            filter: alpha(opacity=60);
+            /* For IE8 and earlier */
+        }
+        
         .grad1 {
             height: 200px;
             background: red;
@@ -122,7 +128,7 @@
 <body>
 
     <div class="w3-top">
-        <div class="w3-row w3-padding w3-black" style="font-family: 'Montserrat Subrayada', sans-serif;">
+        <div class="w3-row w3-padding w3-black opacidad" style="font-family: 'Montserrat Subrayada', sans-serif;">
             <div class="w3-col s3">
                 <a href="#cajamarca" class="w3-button w3-block w3-black">CAJAMARCA</a>
             </div>
