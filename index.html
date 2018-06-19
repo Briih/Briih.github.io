@@ -1,236 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Biografía</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/social.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Indie+Flower|Cookie|Dancing+Script|Josefin+Sans|Satisfy" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            font: 400 15px;
-            font-family: 'Josefin Sans', sans-serif;
-            line-height: 1.8;
-            color: #261174;
+<title>Biografía</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/social.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Indie+Flower|Cookie|Dancing+Script|Josefin+Sans|Satisfy" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    body {
+        font: 400 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1.8;
+        color: #261174;
+        height: 100%;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #303030;
+        font-weight: 600;
+        margin-bottom: 30px;
+        font-family: 'Cabin Sketch', cursive;
+    }
+    
+    h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        color: #303030;
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-family: 'Cookie', cursive;
+    }
+    
+    .bgimg {
+        background-position: center;
+        background-size: cover;
+        background-image: url("img/cabeza.jpg");
+        min-height: 75%;
+    }
+    
+    .img-responsive {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 300px;
+    }
+    
+    .container-fluid {
+        padding: 60px 50px;
+    }
+    
+    .bg-grey {
+        background-color: #f1effc;
+    }
+    
+    .a {
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+    }
+    
+    .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .carousel-control.right,
+    .carousel-control.left {
+        color: #9189ff;
+    }
+    
+    .carousel-indicators li {
+        border-color: #cbabff;
+    }
+    
+    .carousel-indicators li.active {
+        background-color: #6e5d97;
+    }
+    
+    .item h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+    }
+    
+    .item span {
+        font-style: normal;
+    }
+    
+    .panel {
+        border: 1px solid #4d4268;
+        border-radius: 0 !important;
+        transition: box-shadow 0.5s;
+    }
+    
+    .panel:hover {
+        box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+    }
+    
+    .panel-footer .btn:hover {
+        border: 1px solid #f4511e;
+        background-color: rgb(15, 6, 39) !important;
+        color: #f4511e;
+    }
+    
+    .panel-heading {
+        color: rgb(99, 32, 153) !important;
+        background-color: #625777 !important;
+        padding: 25px;
+        border-bottom: 1px solid transparent;
+    }
+    
+    .panel-footer {
+        background-color: rgb(29, 5, 5) !important;
+    }
+    
+    .panel-footer h3 {
+        font-size: 32px;
+    }
+    
+    .panel-footer h4 {
+        color: #aaa;
+        font-size: 14px;
+    }
+    
+    .panel-footer .btn {
+        margin: 15px 0;
+        background-color: #8e95fd;
+        color: rgb(228, 190, 253);
+    }
+    
+    .navbar {
+        margin-bottom: 0;
+        background-color: #422d5c;
+        z-index: 9999;
+        border: 0;
+        font-size: 12px !important;
+        line-height: 1.42857143 !important;
+        letter-spacing: 4px;
+        border-radius: 0;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .navbar li a,
+    .navbar .navbar-brand {
+        color: rgb(215, 206, 253) !important;
+    }
+    
+    .navbar-nav li a:hover,
+    .navbar-nav li.active a {
+        color: #db9dff !important;
+        background-color: rgb(95, 78, 172) !important;
+    }
+    
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: rgb(40, 27, 97) !important;
+    }
+    
+    footer .glyphicon {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #7c7faa;
+    }
+    
+    .slideanim {
+        visibility: hidden;
+    }
+    
+    .slide {
+        animation-name: slide;
+        -webkit-animation-name: slide;
+        animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        visibility: visible;
+    }
+    
+    @keyframes slide {
+        0% {
+            opacity: 0;
+            transform: translateY(70%);
         }
-        
-        h2 {
-            font-size: 24px;
-            text-transform: uppercase;
-            color: #303030;
-            font-weight: 600;
-            margin-bottom: 30px;
-            font-family: 'Cabin Sketch', cursive;
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
         }
-        
-        h4 {
-            font-size: 19px;
-            line-height: 1.375em;
-            color: #303030;
-            font-weight: 400;
-            margin-bottom: 30px;
-            font-family: 'Cookie', cursive;
+    }
+    
+    @-webkit-keyframes slide {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(70%);
         }
-        
-        .jumbotron {
-            background-image: url("img/cabeza.jpg");
-            padding: 50%;
-            max-width: 90%;
-            height: auto;
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
         }
-        
-        .img-responsive {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 300px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .col-sm-4 {
+            text-align: center;
+            margin: 25px 0;
         }
-        
-        .container-fluid {
-            padding: 60px 50px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .logo {
+            font-size: 150px;
         }
-        
-        .bg-grey {
-            background-color: #f6f6f6;
-        }
-        
-        .a {
-            font-family: 'Indie Flower', cursive;
-        }
-        
-        .thumbnail {
-            padding: 0 0 15px 0;
-            border: none;
-            border-radius: 0;
-        }
-        
-        .thumbnail img {
-            width: 100%;
-            height: 100%;
-            margin-bottom: 10px;
-        }
-        
-        .carousel-control.right,
-        .carousel-control.left {
-            color: #9189ff;
-        }
-        
-        .carousel-indicators li {
-            border-color: #cbabff;
-        }
-        
-        .carousel-indicators li.active {
-            background-color: #6e5d97;
-        }
-        
-        .item h4 {
-            font-size: 19px;
-            line-height: 1.375em;
-            font-weight: 400;
-            font-style: italic;
-            margin: 70px 0;
-        }
-        
-        .item span {
-            font-style: normal;
-        }
-        
-        .panel {
-            border: 1px solid #b18fff;
-            border-radius: 0 !important;
-            transition: box-shadow 0.5s;
-        }
-        
-        .panel:hover {
-            box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
-        }
-        
-        .panel-footer .btn:hover {
-            border: 1px solid #f4511e;
-            background-color: #fff !important;
-            color: #f4511e;
-        }
-        
-        .panel-heading {
-            color: rgb(99, 32, 153) !important;
-            background-color: #b48cff !important;
-            padding: 25px;
-            border-bottom: 1px solid transparent;
-            border-top-left-radius: 0px;
-            border-top-right-radius: 0px;
-            border-bottom-left-radius: 0px;
-            border-bottom-right-radius: 0px;
-        }
-        
-        .panel-footer {
-            background-color: white !important;
-        }
-        
-        .panel-footer h3 {
-            font-size: 32px;
-        }
-        
-        .panel-footer h4 {
-            color: #aaa;
-            font-size: 14px;
-        }
-        
-        .panel-footer .btn {
-            margin: 15px 0;
-            background-color: #8e95fd;
-            color: #fff;
-        }
-        
-        .navbar {
-            margin-bottom: 0;
-            background-color: #c79bff;
-            z-index: 9999;
-            border: 0;
-            font-size: 12px !important;
-            line-height: 1.42857143 !important;
-            letter-spacing: 4px;
-            border-radius: 0;
-            font-family: 'Indie Flower', cursive;
-        }
-        
-        .navbar li a,
-        .navbar .navbar-brand {
-            color: #fff !important;
-        }
-        
-        .navbar-nav li a:hover,
-        .navbar-nav li.active a {
-            color: #db9dff !important;
-            background-color: #fff !important;
-        }
-        
-        .navbar-default .navbar-toggle {
-            border-color: transparent;
-            color: #fff !important;
-        }
-        
-        footer .glyphicon {
-            font-size: 20px;
-            margin-bottom: 20px;
-            color: #7c7faa;
-        }
-        
-        .slideanim {
-            visibility: hidden;
-        }
-        
-        .slide {
-            animation-name: slide;
-            -webkit-animation-name: slide;
-            animation-duration: 2s;
-            -webkit-animation-duration: 2s;
-            visibility: visible;
-        }
-        
-        @keyframes slide {
-            0% {
-                opacity: 0;
-                transform: translateY(70%);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0%);
-            }
-        }
-        
-        @-webkit-keyframes slide {
-            0% {
-                opacity: 0;
-                -webkit-transform: translateY(70%);
-            }
-            100% {
-                opacity: 1;
-                -webkit-transform: translateY(0%);
-            }
-        }
-        
-        @media screen and (max-width: 768px) {
-            .col-sm-4 {
-                text-align: center;
-                margin: 25px 0;
-            }
-        }
-        
-        @media screen and (max-width: 480px) {
-            .logo {
-                font-size: 150px;
-            }
-        }
-    </style>
-</head>
+    }
+</style>
+
 
 <body id="inicio" data-spy="scroll" data-target=".navbar" data-offset="60">
     <aside>
@@ -272,9 +271,9 @@
         </div>
     </nav>
 
-    <div class="jumbotron ">
-        <p></p>
-    </div>
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+    </header>
 
     <div id="acerca" class="container-fluid">
         <div class="row">
