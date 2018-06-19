@@ -132,71 +132,18 @@
                     cuales han evolucionado y desarrollado adaptándose a los espacios que ocupan.</p>
                 </p>
                 <img src="img/cajamarca.jpeg" alt="Cajamarca" style="width:60%">
-            </div>
-            <hr>
-            <div id="fauna" class="container-fluid ">
-
-                <button type="button" class="btn btn-warning btn-block" data-toggle="collapse" data-target="#demo">FAUNA</button>
-                <div id="demo" class="collapse">
-                    <p>Cajamarca se caracteriza por la presencia de alpacas y vicuñas, pero también de venados, chinchilla y vizcachas. Las alturas andinas también es un territorio de los depredadores como el gavilán, halcón y cóndor. La cría de ganado vacuno
+                <hr>
+                <div id="fauna" class="container-fluid ">
+                    <h3>Fauna</h3>
+                    <p class="text-justify">Cajamarca se caracteriza por la presencia de alpacas y vicuñas, pero también de venados, chinchilla y vizcachas. Las alturas andinas también es un territorio de los depredadores como el gavilán, halcón y cóndor. La cría de ganado vacuno
                         tiene suma importancia, también desarrolla la cría de ganado ovino y de camélidos andinos. En la localidad de Namora se puede observar una importante estación, piscícola, que produce truchas y pejerreyes.</p>
                 </div>
-                <div class="mySlides w3-display-container w3-center">
-                    <img src="img/pichon.jpg" style="width:100%">
-                </div>
-                <div class="mySlides w3-display-container w3-center">
-                    <img src="img/vaca.jpg" style="width:100%">
-                </div>
-                <div class="mySlides w3-display-container w3-center">
-                    <img src="img/cuy.jpg" style="width:100%">
-                </div>
+            </div>
+            <div class="col-sm-3 sidenav ">
+
             </div>
         </div>
-        <p></p>
-        <div class="col-sm-3 sidenav ">
-
-        </div>
     </div>
-    </div>
-
-    <script>
-        // Automatic Slideshow - change image every 4 seconds
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1
-            }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 4000);
-        }
-
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function myFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        var modal = document.getElementById('ticketModal');
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-
 </body>
 
 </html>
