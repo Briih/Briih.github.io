@@ -4,15 +4,8 @@ function click() {
 }
 
 function cambiarimagen() {
-    var pokeballImg, i = 1;
-    if (i == 1) {
-        pokeballImg = document.getElementById("icon01");
-        i = 2;
-    } else {
-        pokeballImg.src = "img/Totodile.png";
-        i = 1;
-    }
-
+    var pokeballImg = document.getElementById("icon01");
+    pokeballImg.src = "img/Totodile.png";
 }
 
 window.onload = click;
